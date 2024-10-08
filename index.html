@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manav Sarang - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Manav Sarang</div>
+            <div class="hamburger" id="hamburger">
+                <img src="Button.png" alt="Menu">
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/manav-sarang-b22278225/" class="social-link">
+                    <img src="logo1.png" alt="LinkedIn"> LinkedIn
+                </a></li>
+                <li><a href="https://github.com/Manav225" class="social-link github">
+                    <img src="logo2.png" alt="GitHub"> GitHub
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+       
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="photo.jpg" alt="Profile Photo" class="profile-photo"> <!-- Add the path to your profile photo -->
+        <h1>Hi, I’m Manav Sarang</h1>
+        <p>UI/UX Designer & Full Stack Developer</p>
+        <a href="https://drive.google.com/file/d/15EhujKpM2azXo9tnj1GHNwPPcKFBL2Q0/view?usp=sharing" class="cta-button">Download Resume</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+            I excel in problem-solving, especially in coding and algorithm design. I enjoy tackling complex challenges and finding efficient solutions, whether it’s through competitive programming or project work. My attention to detail sets me apart, as I believe understanding the intricacies of a problem is crucial for developing effective solutions. I aspire to contribute to innovative technology that enhances everyday life. My goal is to work in a dynamic environment where I can leverage my skills in AI and software development to create impactful solutions. People often recognize me for my collaborative spirit and leadership skills during group projects, encouraging everyone to share ideas and ensuring that everyone’s voice is heard.
+        </p>
+    </section>
+
+    <!-- Internship Experience Section -->
+    <section class="internship-section">
+        <h2>Internship Experience</h2>
+        <ul>
+            <li>UI/UX Design Internship at Shoppeal Tech - Led a team to create over 50 wireframes</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Learning Management System (Upcoming)</h3>
+            <p>Tech Stack: Django</p>
+        </div>
+        <div class="project">
+            <h3>GPLeave (2023)</h3>
+            <p>Tech Stack: PHP</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skill">
+            <img src="html.png" alt="HTML Logo" class="skill-logo"> <!-- Replace with actual logo path -->
+            <span>HTML</span>
+        </div>
+        <div class="skill">
+            <img src="css.png" alt="CSS Logo" class="skill-logo"> <!-- Replace with actual logo path -->
+            <span>CSS</span>
+        </div>
+        <div class="skill">
+            <img src="javascript.png" alt="JavaScript Logo" class="skill-logo"> <!-- Replace with actual logo path -->
+            <span>JavaScript</span>
+        </div>
+        <div class="skill">
+            <img src="php.png" alt="PHP Logo" class="skill-logo"> <!-- Replace with actual logo path -->
+            <span>PHP</span>
+        </div>
+        <div class="skill">
+            <img src="django.png" alt="Django Logo" class="skill-logo"> <!-- Replace with actual logo path -->
+            <span>Django</span>
+        </div>
+        <div class="skill">
+            <img src="figma.png" alt="Figma Logo" class="skill-logo"> <!-- Replace with actual logo path -->
+            <span>Figma</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
